@@ -8,7 +8,7 @@ This repository contains an assortment of all my dotfiles.
 
 1. Clone repo into new hidden directory.
 ```
-git clone https://github.com/hazveg/dotfiles ~/.dotfiles
+git clone https://github.com/hazveg/hazveg_dotfiles ~/.dotfiles
 ```
 
 2. Run the installation script
@@ -29,7 +29,18 @@ ln -s ~/.dotfiles/konsole ~/.local/share/konsole
 
 ## Windows
 
-TODO
+1. Clone repo into new hidden directory.
+```
+git clone https://github.com/hazveg/hazveg_dotfiles $Env:USERPROFILE\.dotfiles
+```
+
+2. Run the installation script
+```
+$Env:USERPROFILE\.dotfiles\install.ps1
+```
+**requires administrator privileges**
+
+The amount of work that is needed to write down what to do manually is too fucking much. so just run the script please.
 
 # Misc.
 
