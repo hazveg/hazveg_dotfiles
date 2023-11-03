@@ -13,8 +13,6 @@ then
 	ln -s ~/.dotfiles/linux/nvim ~/.config/nvim
 	echo "Creating symlink for .local/share/konsole"
 	ln -s ~/.dotfiles/linux/konsole ~/.local/share/konsole
-	echo "Creating symlink for .tmux.conf"
-	ln -s ~/.dotfiles/linux/.tmux.conf ~/.tmux.conf
 else
 	echo "Installation cancelled by user"
 fi
