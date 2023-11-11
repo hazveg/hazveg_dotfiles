@@ -28,6 +28,18 @@ return require('packer').startup(function(use)
   use 'saadparwaiz1/cmp_luasnip'
   use 'rafamadriz/friendly-snippets'
   use 'folke/trouble.nvim'
+  -- indentation
+  use {
+	"lukas-reineke/indent-blankline.nvim",
+	config = function()
+		local opts = {}
+
+		require("ibl").setup(require("indent-rainbowline").make_opts(opts))
+	end,
+	requires = {
+		"TheGLander/indent-rainbowline.nvim",
+	}
+  }
 
   use {
 	  "williamboman/mason.nvim",
