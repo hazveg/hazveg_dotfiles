@@ -12,6 +12,7 @@ then
 	echo "Creating symlink for ~/.config/nvim"
 	ln -s ~/.dotfiles/linux/nvim ~/.config/nvim
 	echo "Creating symlink for ~/.local/share/konsole"
+	rm -R ~/.local/share/konsole
 	ln -s ~/.dotfiles/linux/konsole ~/.local/share/konsole
 	#echo "Creating symlink for ~/.config/khotkeysrc"
 	#ln -s ~/.dotfiles/linux/khotkeysrc ~/.config/khotkeysrc
