@@ -6,7 +6,10 @@ read confirmation
 if [ "$confirmation" = "y" ] || [ "$confirmation" = "Y" ]
 then
 	echo "Creating symlink for ~/.bashrc"
+	rm ~/.bashrc
 	ln -s ~/.dotfiles/linux/.bashrc ~/.bashrc
+	echo "Creating symlink for ~/.bash_aliases"
+	ln -s ~/.dotfiles/linux/.bash_aliases ~/.bash_aliases
 	echo "Creating symlink for ~/.gitconfig"
 	ln -s ~/.dotfiles/linux/.gitconfig ~/.gitconfig
 	echo "Creating symlink for ~/.config/nvim"
