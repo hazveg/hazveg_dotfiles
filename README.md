@@ -16,17 +16,6 @@ git clone https://github.com/hazveg/hazveg_dotfiles ~/.dotfiles
 ~/.dotfiles/install.sh
 ```
 
-**can't guarantee this will stay up to date**
-However if that doesn't work, these are the manual steps:
-
-3. Create symlinks in the Home directory to the real files in the repo.
-```
-ln -s ~/.dotfiles/.bashrc ~/.bashrc
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/nvim ~/.config/nvim
-ln -s ~/.dotfiles/konsole ~/.local/share/konsole
-```
-
 ## Windows
 
 1. Clone repo into new hidden directory.
@@ -34,30 +23,14 @@ ln -s ~/.dotfiles/konsole ~/.local/share/konsole
 git clone https://github.com/hazveg/hazveg_dotfiles $Env:USERPROFILE\.dotfiles
 ```
 
-2. Run the installation script
+2. Run the installation script **AS ADMINISTRATOR!**
 ```
 $Env:USERPROFILE\.dotfiles\install.ps1
 ```
-**requires administrator privileges**
-
-The amount of work that is needed to write down what to do manually is too fucking much. so just run the script please.
 
 # Misc.
 
-## Konsole Keymaps
-
-| Action | Shortcut |
-| ----------- | ----------- |
-| Expand View | Alt+. |
-| Shrink View | Alt+, |
-| Focus Above | Alt+K |
-| Focus Below | Alt+J |
-| Focus Left | Alt+H |
-| Focus Right | Alt+L |
-
 ## Nvim Config
-
-neovim config, copied from typecraft 99.1%
 
 ### Clipboard
 
