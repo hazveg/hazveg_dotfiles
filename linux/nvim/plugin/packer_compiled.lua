@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/aaron/.local/share/nvim/site/pack/packer/start/autoclose.nvim",
     url = "https://github.com/m4xshen/autoclose.nvim"
   },
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "/home/aaron/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
+  },
   catppuccin = {
     loaded = true,
     path = "/home/aaron/.local/share/nvim/site/pack/packer/start/catppuccin",
