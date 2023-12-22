@@ -8,3 +8,6 @@ Name=Profile 1
 Parent=FALLBACK/
 TerminalColumns=157
 TerminalRows=42
+
+[Scrolling]
+ScrollBarPosition=2

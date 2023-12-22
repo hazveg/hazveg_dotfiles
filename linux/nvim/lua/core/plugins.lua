@@ -33,9 +33,7 @@ return require('packer').startup(function(use)
   use {
 	"lukas-reineke/indent-blankline.nvim",
 	config = function()
-		local opts = {}
-
-		require("ibl").setup(require("indent-rainbowline").make_opts(opts))
+		require("ibl").setup(require("indent-rainbowline").make_opts({}))
 	end,
 	requires = {
 		"TheGLander/indent-rainbowline.nvim",
