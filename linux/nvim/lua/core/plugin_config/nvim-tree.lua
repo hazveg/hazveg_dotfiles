@@ -3,4 +3,4 @@ vim.g.loaded_netrwPlugin = 1
 
 require("nvim-tree").setup { view = { side = 'right' } }
 
-vim.keymap.set('n', '<C-j>', ':NvimTreeFindFileToggle<CR>')
+vim.keymap.set('n', '<C-b>', ':NvimTreeFindFileToggle<CR>')

@@ -40,6 +40,9 @@ return require('packer').startup(function(use)
 	}
   }
 
+  -- Terminal
+  use 'akinsho/toggleterm.nvim'
+
   use {
 	  "williamboman/mason.nvim",
 	  "williamboman/mason-lspconfig.nvim",
