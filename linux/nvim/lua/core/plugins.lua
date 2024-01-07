@@ -30,15 +30,15 @@ return require('packer').startup(function(use)
   use 'folke/trouble.nvim'
   use 'romgrk/barbar.nvim'
   -- indentation
-  use {
-	"lukas-reineke/indent-blankline.nvim",
-	config = function()
-		require("ibl").setup(require("indent-rainbowline").make_opts({}))
-	end,
-	requires = {
-		"TheGLander/indent-rainbowline.nvim",
-	}
-  }
+-- use {
+--	"lukas-reineke/indent-blankline.nvim",
+--	config = function()
+--		require("ibl").setup(require("indent-rainbowline").make_opts({}))
+--	end,
+--	requires = {
+--		"TheGLander/indent-rainbowline.nvim",
+--	}
+-- }
 
   -- Terminal
   use 'akinsho/toggleterm.nvim'
